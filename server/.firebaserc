@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "portfolio-61b75"
+  },
+  "targets": {
+    "portfolio-61b75": {
+      "hosting": {
+        "admin-project": [
+          "admin-project.sohitkokaria.com"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
