@@ -120,7 +120,7 @@ const Sidebar = ({ user, drawerWidth, isSidebarOpen, setIsSidebarOpen, isNonMobi
                         },
                     }}
                 >
-                    <Box width="100%">
+                    <Box width="100%" overflow="auto" sx={{height: "calc(100% - 6rem)"}}>
                         <Box m="1.5rem 2rem 2rem 3rem">
                             <FlexBetween color={theme.palette.secondary.main}>
                                 <Box display="flex" alignItems="center" gap="0.5rem">
@@ -188,7 +188,7 @@ const Sidebar = ({ user, drawerWidth, isSidebarOpen, setIsSidebarOpen, isNonMobi
                             })}
                         </List>
                     </Box>
-                    <Box position="absolute" bottom="2rem">
+                    <Box position="absolute" bottom="0" height="6rem" width="100%">
                         <Divider />
                         <FlexBetween textTransform="none" gap="1rem" m="1.5rem 2rem 0 3rem">
                             <Box
